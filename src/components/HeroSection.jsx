@@ -1,4 +1,4 @@
-import { ButtonLink } from "./ButtonLink";
+import { ButtonLink } from './ButtonLink';
 
 export function HeroSection() {
   return (
@@ -14,14 +14,14 @@ export function HeroSection() {
       </p>
 
       <div className="flex gap-6">
-        <ButtonLink href="https://www.linkedin.com/company/octalweboficial/" >
-          LinkedIn
+        <ButtonLink href="https://www.linkedin.com/company/octalweboficial/">LinkedIn</ButtonLink>
+
+        <ButtonLink href="mailto:atendimento@octalweb.com.br" variant="secondary">
+          Email
         </ButtonLink>
 
-        <ButtonLink href="mailto:atendimento@octalweb.com.br" variant="secondary" >
-          Contato
-        </ButtonLink>
+        <ButtonLink href="https://wa.me/5554999633790">WhatsApp</ButtonLink>
       </div>
     </main>
-  )
+  );
 }
